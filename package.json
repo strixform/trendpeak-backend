@@ -1,13 +1,9 @@
 {
   "name": "trendpeak-backend",
   "version": "1.0.0",
-  "type": "module",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "type": "commonjs",
+  "private": true,
   "dependencies": {
-    "cors": "2.8.5",
-    "express": "4.19.2"
+    "@supabase/supabase-js": "^2.45.0"
   }
 }
